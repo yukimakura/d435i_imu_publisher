@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>d435i_imu_publisher</name>
+  <version>0.0.1</version>
+  <description>The d435i_imu_publisher package</description>
+
+  <license>MIT</license>
+
+  <author email="yukimakura86@gmail.com">yukimakura</author>
+  <maintainer email="yukimakura86@gmail.com">yukimakura</maintainer>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <exec_depend>imu_filter_madgwick</exec_depend>
+
+  <export>
+
+  </export>
+</package>
